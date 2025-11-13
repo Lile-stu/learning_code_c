@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/hello_world.c" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello_world_zh.c" charset="GB2312" />
     <file url="file://$PROJECT_DIR$/training/chapter7/7.8_paint" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/training/chapter7/7_if_parity_.c" charset="UTF-8" />
