@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_world_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_world_c-Debug-de5a0a8a489c206ecb08.json",
+					"name" : "hello_world_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_world_zh_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_world_zh_c-Debug-c5d72c1e8a6d50b5667d.json",
+					"name" : "hello_world_zh_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_c-Debug-01bacae2eb9d854df4bf.json",
+					"name" : "main_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter3_3117_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter3_3117_cpp-Debug-5115d8f94a044755be10.json",
+					"name" : "training_chapter3_3117_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter3_3_11_6_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter3_3_11_6_cpp-Debug-1bd9a3b05e0eeb2fa19c.json",
+					"name" : "training_chapter3_3_11_6_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter4_4_1_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter4_4_1_c-Debug-d5101421542e78690f06.json",
+					"name" : "training_chapter4_4_1_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter4_4_3_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter4_4_3_cpp-Debug-62104c0711becec3c4cf.json",
+					"name" : "training_chapter4_4_3_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter4_4_4_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter4_4_4_cpp-Debug-3e6ec7610153ec571297.json",
+					"name" : "training_chapter4_4_4_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter5_5_1_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter5_5_1_c-Debug-d98be8422731880ca014.json",
+					"name" : "training_chapter5_5_1_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter6_6_2_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter6_6_2_c-Debug-82240711c8c2f03b8671.json",
+					"name" : "training_chapter6_6_2_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter6_6_3_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter6_6_3_c-Debug-4fbf032a80a14cc4abfa.json",
+					"name" : "training_chapter6_6_3_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter6_6_4_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter6_6_4_c-Debug-21bb58464cc5b9e461aa.json",
+					"name" : "training_chapter6_6_4_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter6_6_5_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter6_6_5_c-Debug-80fa9bbf7b4c2582fa48.json",
+					"name" : "training_chapter6_6_5_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter7_7_7_wordcnt_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter7_7_7_wordcnt_c-Debug-2bdfa2a6d9d71f27c60f.json",
+					"name" : "training_chapter7_7_7_wordcnt_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter7_7_8_paint_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter7_7_8_paint_c-Debug-0e6637d06fef0be47d68.json",
+					"name" : "training_chapter7_7_8_paint_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter7_7_if_parity__c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter7_7_if_parity__c-Debug-7897b1ecfdcf0741d9dc.json",
+					"name" : "training_chapter7_7_if_parity__c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_chapter7_7_if_parity_joking_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_chapter7_7_if_parity_joking_c-Debug-1ae03cd24518f2869411.json",
+					"name" : "training_chapter7_7_if_parity_joking_c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/all_code/c_code/out/build/x64-Debug",
+		"source" : "D:/all_code/c_code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

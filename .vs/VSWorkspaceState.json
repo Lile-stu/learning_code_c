@@ -1,0 +1,15 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\training",
+    "\\training\\chapter7"
+  ],
+  "SelectedNode": "\\training\\chapter7\\7_if_parity_joking.c",
+  "PreviewInSolutionExplorer": false
+}

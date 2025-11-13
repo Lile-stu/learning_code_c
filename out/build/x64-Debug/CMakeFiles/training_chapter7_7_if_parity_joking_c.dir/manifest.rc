@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/all_code/c_code/out/build/x64-Debug/CMakeFiles/training_chapter7_7_if_parity_joking_c.dir/embed.manifest"

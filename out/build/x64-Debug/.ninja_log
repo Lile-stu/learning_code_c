@@ -1,0 +1,5 @@
+# ninja log v6
+14	82	7845720116565357	CMakeFiles/hello_world_c.dir/hello_world.c.obj	c79b4af01af5527b
+83	327	7845720117256764	D:/all_code/c_code/runtime/hello_world_c.exe	83090b861e010261
+17	84	7845720721248204	CMakeFiles/training_chapter7_7_if_parity_joking_c.dir/training/chapter7/7_if_parity_joking.c.obj	df50c0d7e3f01d5d
+85	330	7845720721934063	D:/all_code/c_code/runtime/training_chapter7_7_if_parity_joking_c.exe	5a50d838d28b9b50
