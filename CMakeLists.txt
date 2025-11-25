@@ -1,30 +1,19 @@
-cmake_minimum_required(VERSION 3.28)# 定义项目名称和版本
+cmake_minimum_required(VERSION 3.10)
+project(MyCTraining)
 
-project(MyProject VERSION 1.0)# 设置 C 标准
+# 1. 递归查找所有 .c 文件
+file(GLOB_RECURSE SOURCES "training/*.c")
 
-set(CMAKE_C_STANDARD 17)# 设置构建路径，避免污染根目录
+foreach(FILE_PATH ${SOURCES})
+    # 计算相对路径 (例如: training/chapter7/6.c)
+    file(RELATIVE_PATH REL_PATH ${CMAKE_SOURCE_DIR} ${FILE_PATH})
 
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/archive)
+    # 把路径里的斜杠 / 换成下划线 _ (变成 training_chapter7_6.c)
+    string(REPLACE "/" "_" TARGET_NAME ${REL_PATH})
 
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/library)
+    # 去掉 .c 后缀 (变成 training_chapter7_6)
+    string(REPLACE ".c" "" TARGET_NAME ${TARGET_NAME})
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/runtime)# 遍历项目根目录下的 .c 和 .cpp 文件，排除 CMake 编译器检测文件夹
-
-file(GLOB_RECURSE files "*.c" "*.cpp")
-
-list(FILTER files EXCLUDE REGEX ".*/CMakeFiles/.*") # 排除 CMakeFiles 目录中的文件# 遍历每个文件并添加可执行目标
-
-foreach (file ${files})
-    # 1. 获取文件相对于根目录的相对路径
-    # 例如：training/chapter2/4.cpp
-    file(RELATIVE_PATH rel_path ${CMAKE_SOURCE_DIR} ${file})
-
-    # 2. 将路径中的 / 和 . 替换为 _ 来创建唯一的目标名
-    # 例如：training_chapter2_4_cpp
-    string(REPLACE "/" "_" exe ${rel_path})
-    string(REPLACE "." "_" exe ${exe})
-
-    # 3. 添加可执行目标
-    add_executable(${exe} ${file})
-    message(STATUS " -- ${file} will be compiled to runtime/${exe}")
-endforeach ()
+    # 创建唯一目标
+    add_executable(${TARGET_NAME} ${FILE_PATH})
+endforeach()
